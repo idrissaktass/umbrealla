@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umbrella</title>
+</head>
+<style>
+    header {
+        background-color: rgb(58, 63, 3);
+    }
+    .navbar {
+        background-color: rgb(58, 63, 3);
+        font-size:xx-large;
+        margin-left: 500px;
+        margin-right: 500px;
+        height: 50%;
+       
+    }
+    #navb {
+        color: aliceblue;
+    }
+    #image {
+        width: 100px;
+        height: 75px;
+        position: absolute;
+        left: 40px;
+    }
+    #prop {   
+        text-align: center;
+    }
+    .pro1 {
+        float: left;
+        padding-left: 10%;
+        padding-top: 5%;
+        text-align: center;
+    }
+    #proimg {
+        width: 30ch;
+        height: 30ch;
+        border: 5px solid black;
+        border-color: black;
+        margin-right: 20px;
+    }
+    #shoes1 {
+        text-align: center;
+    }
+</style>
+<body>
+    <header>
+        <div class="navbar">
+            <img src=".\images\logo.png" id="image" alt=""> <br>
+            <a href="home.html" id="navb" style="text-decoration: none;">Home &nbsp</a>
+            <a href="products.html" id="navb" style="text-decoration: none;">Products &nbsp</a>
+            <a href="bag.html" id="navb" style="text-decoration: none;">Bag</a>
+        </div>
+    </header>
+    <div class="column">
+        <div class="pro1 row">
+            <img src=".\images\bag.jpg" alt="" id="proimg">
+            
+            <p id="prop">
+                <h4>75£</h4>
+                Size
+                <select name="size" id="size">
+                    <option value="standart">Standart</option>
+                </select> <br> <br>
+                
+                <button>Add To Bag</button>
+            </p>
+        </div>    
+        <div class="pro1 row">
+            <img src="images\shoes.jpg" alt="" id="proimg">
+            <p id="shoes1">
+                <h4>120£</h4>
+                Size
+                <select name="size" id="size">
+                    <option value="40">40</option>
+                    <option value="41">41</option>
+                    <option value="42">42</option>
+                    <option value="43">43</option>
+                </select> <br> <br>
+                <button>Add To Bag</button>
+            </p>
+        </div>
+        <div class="pro1 row">
+            <img src="images\shirt.jpg" alt="" id="proimg">
+            <p id="shoes1">
+                <h4>50£</h4>
+                Size
+                <select name="size" id="size">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                </select> <br> <br>
+                
+                <button>Add To Bag</button>
+            </p>
+        </div>
+
+    </div>
+
+    
+</body>
+</html>
